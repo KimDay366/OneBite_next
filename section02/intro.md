@@ -1,5 +1,5 @@
 # Next.js란?
-<span style="color: blue; text-align:right;">[date] 2025.08.12</span>
+<span style="color: blue; ">[date] 2025.08.12</span>
 
 ## Next.js는 어떤 기술일까?
 - **React.js** 전용 프레임 워크! React의 **확장판**
