@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>
-    <header>header section </header>
+    {/* <header>header section </header> */}
   <Component {...pageProps} />
   </>
 }
