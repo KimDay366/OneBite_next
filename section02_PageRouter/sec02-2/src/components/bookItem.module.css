@@ -1,0 +1,12 @@
+.container{
+    display: flex; gap: 15px;
+    padding: 20px 15px; border-bottom: 1px solid #ddd;
+    color: #222; text-decoration: none; cursor: pointer;
+}
+
+.container > img{ width: 100px; }
+.container p { margin : 2px 0; }
+
+.title { font-weight: bold; }
+.subTitle {word-break: keep-all;}
+.author { color : gray }

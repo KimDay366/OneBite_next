@@ -1,0 +1,21 @@
+.container{ display: flex; flex-direction: column; gap: 15px;}
+
+.cover_img{
+    display: flex; justify-content: center; padding: 20px; position: relative; 
+    background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+
+.cover_img::before{
+    content: ""; display: block; background-color: rgba(20,20,20,0.5);
+    position: absolute; width: 100%; height: 100%; top: 0; left: 0; 
+}
+
+.cover_img img { height: 100%; max-height: 350px; z-index: 1;}
+
+.info_con { padding-top: 10px; }
+.info_con p { color: #888; margin: 5px 0 10px; font-size: 14px;}
+.info_con p:nth-child(1) { font-weight: bold; color: #222; font-size: 26px;}
+.info_con p:last-child {
+    background-color: #dfdfdf; color: #222; line-height: 26px;
+    border-radius: 5px; padding: 10px; margin-top: 15px;
+}
